@@ -49,22 +49,3 @@ DOMAIN-KEYWORD,openaipublic,PROXY
 
 
 
-
-DOMAIN-SUFFIX,openai.com,PROXY
-DOMAIN-SUFFIX,sentry.io,PROXY
-DOMAIN-SUFFIX,pay.openai.com,PROXY
-DOMAIN-SUFFIX,identrust.com,PROXY
-DOMAIN,openaiapi-site.azureedge.net,PROXY
-DOMAIN-SUFFIX,chat.openai.com,PROXY
-DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
-DOMAIN-SUFFIX,auth0.openai.com,PROXY
-DOMAIN-SUFFIX,platform.openai.com,PROXY
-# Add ai.com
-DOMAIN-SUFFIX,ai.com,PROXY
-# Add stripe.com
-DOMAIN-SUFFIX,invoice.stripe.com,PROXY
-DOMAIN-SUFFIX,stripe.com,PROXY
-#add poe.com
-DOMAIN-SUFFIX,poe.com,PROXY
-#add bard.google.com,PROXY
-DOMAIN-SUFFIX,bard.google.com,PROXY
