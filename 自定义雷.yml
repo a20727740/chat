@@ -2,7 +2,14 @@ mode: rule
 log-level: warning
 ipv6: false
 proxies: null
-proxy-groups: null
+proxy-groups:
+- name: proxy
+  type: select
+  proxies:
+  - HK01
+  - HK02
+  - SG01
+  filter: 'HK'
 proxy-providers:
   myprovider:
     type: http
