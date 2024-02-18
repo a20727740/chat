@@ -7,7 +7,7 @@ proxy-providers:
   myprovider:
     type: http
     url: https://api.leiting.io/api/v1/client/subscribe?token=21685fd3cebb9f2882d9b9a639db2bfe
-    path: ./自定义订.yaml
+    path: ./自定义订阅.yaml
     interval: 3600
     health-check:
       enable: true
