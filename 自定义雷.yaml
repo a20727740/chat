@@ -1,6 +1,6 @@
 mode: rule
 log-level: warning
-ipv6: false
+ipv6: true
 proxies: null
 proxy-groups: null
 proxy-providers:
