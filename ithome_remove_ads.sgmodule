@@ -1,0 +1,14 @@
+#!name=IT之家去广告
+#!desc=去除IT之家移动Web与APP中的广告
+#!author=chouchoui（原脚本），整理 by ChatGPT
+#!homepage=https://github.com/chouchoui/QuanX
+#!category=Adblock
+
+[Script]
+IT之家移动Web新闻广告 = type=http-response,pattern=^https:\/\/m\.ithome\.com\/api\/news\/newslistpageget,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js,script-update-interval=0
+IT之家APP新闻广告 = type=http-response,pattern=^https:\/\/api\.ithome\.com\/json\/(listpage|newslist)\/news,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js,script-update-interval=0
+IT之家APP轮播广告 = type=http-response,pattern=^https:\/\/api\.ithome\.com\/json\/slide\/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js,script-update-interval=0
+IT之家napi广告 = type=http-response,pattern=^https:\/\/napi\.ithome\.com\/api\/(news|topmenu)\/(getfeeds|index),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js,script-update-interval=0
+
+[URL Rewrite]
+^https:\/\/api\.zuihuimai\.com - reject
